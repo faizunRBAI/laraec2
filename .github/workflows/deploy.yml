@@ -156,7 +156,6 @@ jobs:
           app_name: '${{ secrets.PROJECT_NAME }}'
           app_url: 'http://${{ steps.get_ip.outputs.server_ip }}'
           VARSEOF
-        no-output-timeout: 10s
 
       - name: Run Ansible playbook
         env:
