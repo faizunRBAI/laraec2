@@ -31,7 +31,12 @@
     "audit": {
       "abandoned": "report"
     },
-    "allow-plugins": {}
+    "allow-plugins": {},
+    "policy": {
+      "advisories": {
+        "block": false
+      }
+    }
   },
   "extra": {
     "laravel": {
