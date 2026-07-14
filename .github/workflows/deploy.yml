@@ -31,7 +31,7 @@ jobs:
           fi
 
       - name: Install Composer dependencies
-        run: composer install --no-interaction --prefer-dist --optimize-autoloader
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader --no-audit
 
       - name: Generate application key
         run: php artisan key:generate
