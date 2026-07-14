@@ -35,7 +35,7 @@ jobs:
           COMPOSER_PROCESS_TIMEOUT: 0
           COMPOSER_NO_INTERACTION: 1
           COMPOSER_NO_AUDIT: 1
-        run: composer install --no-interaction --prefer-dist --optimize-autoloader
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader --no-audit
 
       - name: Generate application key
         run: php artisan key:generate

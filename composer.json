@@ -27,6 +27,17 @@
       "@php artisan package:discover --ansi"
     ]
   },
+  "config": {
+    "audit": {
+      "abandoned": "report"
+    },
+    "allow-plugins": {}
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": []
+    }
+  },
   "minimum-stability": "stable",
   "prefer-stable": true
 }
